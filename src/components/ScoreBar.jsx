@@ -26,7 +26,7 @@ const Player = ({ right = false }) => {
     <div
       className={`text-[40px] text-white ${right && "[&>*]:text-right flex flex-row-reverse"}`}
     >
-      <input value={"player name"} className="bg-transparent w-fit" />
+      <input placeholder="Player Name" className="bg-transparent w-fit" />
       <span>0</span>
     </div>
   );
